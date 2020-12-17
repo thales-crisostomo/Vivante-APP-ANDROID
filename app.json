@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Vivante",
+    "slug": "Vivante",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "androidStatusBar": {
+       "backgroundColor": "#92278f",
+    },
+    "platforms": [
+      "android",
+    ],
+    "version": "1.0.5",
+    "orientation": "portrait",
+    "icon": "./assets/images/vivante-ios-arredondado.png",
+    "splash": {
+      "image": "./assets/images/vivante13.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff",
+    },
+    "updates": { 
+      "fallbackToCacheTimeout": 0,
+      "enabled": false, /// PARA RECEBER ATUALIZAÇÕES SEM TER QUE ESPERAR APPLESTORE
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      	"package": 'com.starspremium.stars',
+        "versionCode": 5,
+		"permissions": [
+        	"android.permission.ACCESS_NETWORK_STATE",
+            "READ_EXTERNAL_STORAGE",
+            "READ_INTERNAL_STORAGE",
+            "WRITE_EXTERNAL_STORAGE",
+            "com.google.android.c2dm.permission.RECEIVE",
+            "com.htc.launcher.permission.UPDATE_SHORTCUT",
+            "com.majeur.launcher.permission.UPDATE_BADGE",
+            "com.sec.android.provider.badge.permission.READ",
+            "com.sec.android.provider.badge.permission.WRITE",
+            "com.google.android.c2dm.permission.RECEIVE"  
+      	],
+     }
+  }
+}
